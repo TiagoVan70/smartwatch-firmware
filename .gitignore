@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+.vscode/
+.cache/
+
+# Managed components (fetched by idf.py, don't commit)
+managed_components/
+
+# Local overrides
+*.bak
+*~
